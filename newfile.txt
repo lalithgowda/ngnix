@@ -39,5 +39,4 @@ To create a branch in a repository, you typically need to follow these steps:
    ```
 
    Replace `<branch_name>` with the name of your branch. The `-u` flag sets the upstream branch, allowing you to easily push and pull changes to and from the branch.
-
 That's it! You have now created a new branch in your repository. You can make changes, commit them, and push them to the branch using standard Git commands.
