@@ -1,0 +1,10 @@
+The steps in the job are as follows:
+
+ 1. Checkout code:
+ This step checks out the source code from your repository.
+ 2. Set up Docker Buildx:
+ This step sets up Docker Buildx, a tool for building and pushing Docker images.
+ 3. Login to Docker Hub:
+ This step authenticates with Docker Hub using your Docker Hub username and password. Make sure to store your Docker Hub credentials as secrets in your repository's settings and replace ${{ secrets.DOCKER_USERNAME }} and ${{ secrets.DOCKER_PASSWORD }} with the corresponding secret names.
+ 4. Build and Push Docker image:
+ This step builds the Docker image using the specified context (in this case, the root directory of your repository) and pushes it to Docker Hub. Modify the tags parameter to match your desired image name and version.
