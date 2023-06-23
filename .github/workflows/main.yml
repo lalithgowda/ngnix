@@ -20,5 +20,5 @@ jobs:
 
       - name: Push Docker image
         run: |
-          echo "${{ secrets.lalith@11docker }}" | docker login --username "${{ secrets.laithkumar11 }}" --password-stdin
+          echo ${{ 'secrets.lalith@11docker' }} | docker login --username ${{ 'secrets.laithkumar11' }} --password-stdin
           docker push your-image:latest
