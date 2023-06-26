@@ -18,4 +18,4 @@ jobs:
         with:
           context: .
           push: false  
-          tags: your-image:latest  # Replace "your-image" with your desired image name
+          tags: your-ngnix-project:latest  
