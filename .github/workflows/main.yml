@@ -18,7 +18,4 @@ jobs:
           docker build -t your-image:latest .
           docker images
 
-      - name: Push Docker image
-        run: |
-          echo ${{ 'secrets.laithkumar11' }} | docker login --username ${{ 'secrets.laithdocker123' }} --password-stdin
-          docker push your-image:latest
+
