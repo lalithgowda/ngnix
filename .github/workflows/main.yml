@@ -17,6 +17,5 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: docker 
           push: false  
           tags: ngnix-project:latest  
