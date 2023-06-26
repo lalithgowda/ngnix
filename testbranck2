@@ -1,0 +1,6 @@
+this branch is be created and this text file is created to upload it to the repoisitry.
+and steps to create docker image in github actions 
+1. checkout to source code for repo
+2. docker buledx tool for building and pushing 
+3. login to docker 
+4. build / push docker image. 
