@@ -17,6 +17,6 @@ jobs:
         uses: docker/build-push-action@v2
         with:
           context: .
-          file: /home/dataphion/ngnix-project/ngnix/Dockerfile
+          file: docker 
           push: false  
           tags: ngnix-project:latest  
